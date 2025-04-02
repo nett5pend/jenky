@@ -1,1 +1,11 @@
-Please work
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'declarative script'
+            }
+        }
+    }
+}
